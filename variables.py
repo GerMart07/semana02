@@ -1,9 +1,40 @@
-# Esta sesión sera para aprender el uso de variables
-print("Sistema de mensajería")
-distancia_km = 9.7
-peso_kg = 2.0 
-es_urgente = True
-zona = "B"
+#Vamos a crear variables en Python
+"""
+monto = 100.25
+alumno = "Juan"
+edad = 21 
+aprobado = True
+"""
+""" 
+variable = 1
+print(type(variable))
+variable = 1.5
+print(type(variable))
+variable = "dos"
+print(type(variable))  
+variable = True
+print(type(variable))
+"""
 
-distancia_km = distancia_km + 16
-print(distancia_km)
+"""
+Monto_semana = 0
+Monto_lunes = 100
+Monto_semana += Monto_lunes
+Monto_martes = 200
+Monto_semana += Monto_martes
+Monto_miercoles = 300
+Monto_semana += Monto_miercoles
+Monto_jueves = 400
+Monto_semana += Monto_jueves
+Monto_viernes = 500
+Monto_semana += Monto_viernes
+print(Monto_semana)
+"""
+
+"""
+comprador = "James"
+vendedor = "Carlitos"
+compra = 25
+print(comprador + " le compró a " + vendedor)
+print(f"{comprador} le compró a {vendedor} {compra}" )
+"""
